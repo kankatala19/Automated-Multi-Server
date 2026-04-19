@@ -1,0 +1,11 @@
+- name: Update packages
+  apt:
+    update_cache: yes
+
+- name: Install common tools
+  apt:
+    name:
+      - curl
+      - git
+      - unzip
+    state: present
