@@ -131,4 +131,3 @@ ansible-playbook -i inventory.ini site.yml
 * Infrastructure automation
 * Ansible inventories, playbooks, and roles
 * Multi-server configuration management
-* DevOps best practices
